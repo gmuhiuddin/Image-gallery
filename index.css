@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.heading{
+    text-align: center;
+    font-size: 46px;
+}
+.image-gallery-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.image{
+    height: 289px;
+    width: 279px;
+    margin: 45px;
+    cursor: pointer;
+}
+.poppup-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.poppup-div{
+    display: none;
+    height: 559px;
+    width: 599px;
+    border-radius: 18px;
+    position:fixed;
+    top: 13%;
+    text-align: right;
+    color: black;
+    background-color: white;
+}
+#cancel-poppup{
+    margin-right: 25px;
+    cursor: pointer;
+}
+.poppup-div > img {
+    margin: 29px 79px;
+    height: 409px;
+    width: 439px;
+}
